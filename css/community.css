@@ -1,0 +1,36 @@
+	
+
+	.topwrap{
+		position: absolute;
+		top: 200px;
+		height: 600px;
+		width: 100%;
+		padding: 20px;
+		background-color: ;
+		border: 0.5px solid black;
+		box-shadow: inset 1px 10px 40px black;
+
+	}
+	.midwrap{
+		position: relative;
+		height: 700px;
+		width: 100%;
+		padding: 20px;
+		background-color:;
+		border: 0.5px solid black;
+
+	}
+	.bottomwrap{
+		position: relative;
+		height: 700px;
+		width: 100%;
+		padding: 20px;
+		background-color:;
+		border: 0.5px solid black;
+        box-shadow: inset 1px 10px 40px black;
+	}
+
+
+body{
+	background-color: white;
+	}

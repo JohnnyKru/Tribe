@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+font-family: 'Cinzel', serif;
+}
+
+p {
+   font-size: 18px;
+   color: white;
+}
+
+h2, h3 {
+  color: black;
+  
+}
+h4{
+  color: #7db9e8;
+}
+.logotext{
+font-family: 'Cinzel', serif;
+z-index: 6;
+lighting-color: 
+}
+.subtext{
+font-family: 'Cinzel', serif;
+
+}
+
+section{
+  position: relative;
+
+}
+video {
+  width: auto;
+  height: auto;
+
+}
+video {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.videoHeader {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height:800px;
+}
+
+.videobox{
+  width: 400px;
+  height:200px;
+
+}
+
+.site_promo{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 600px;
+color: white;
+margin: auto;
+background-color:white;
+ text-align: center;
+ padding: 25px;
+}
+
+.page640,.page720,.page750{
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.page640{
+  max-width: 640px;
+}
+.page720{
+  max-width: 720px;
+}
+.page750{
+  max-width: 750px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul,ol,li{
+  list-style: none;
+  text-align: left;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+.clearfix{
+  zoom: 1;
+}
+.img-block{
+  display: block;
+}
+.img-full{
+  width: 100%;
+}
+input{
+  border: 0;
+}
+input[type="search"]::-webkit-input-placeholder{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+input[type="search"]::-moz-placeholder{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+input[type="search"]::-ms-input-placeholder{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+input[type="search"]::-ms-clear{
+  display: none;
+}
+input[type="search"]{
+  outline: medium;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  -webkit-appearance : none;
+}
+input[type="search"]::-webkit-search-cancel-button{
+  -webkit-appearance: none;
+}
+.mask{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+}
+.tip-warn{
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+.btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 2px black;
+}
+
+
+
+<!----Background Wrapper -->
+
+.wrapper{
+  position: relative;
+  top: 50px;
+  width: 50%;
+  height: auto;
+ margin: 0 auto;
+  background-image: url("http://localhost/Kru/img/DarklionLeft.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:transparent;
+}
+
+
+.wrapperMT{
+  position: absolute;
+  top: 100px;   
+  background-color:red;
+  width: 100%;
+  height: 100%;
+
+}
+
+.wrappermain{
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 800PX;
+  background-color: #000;
+   background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:transparent;
+}
+
+.promo{
+  position: relative;
+  top: 0;
+  width: 600px;
+  height: auto;
+  background-image: url("");
+  background-color: white;
+
+}
+
+/*========================================================
+               Main Information Section
+========================================================*/
+/*Main Information */
+.maininfo {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background: url('http://localhost/Kru/img/RamMuay.jpg');
+  background-color: black;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ; 
+}
+
+/*Main information section page - name*/
+.maininfo h1 {
+  color: #fff;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 47px;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding-top: 225px;
+}
+
+/*elemnt used to separate content*/
+hr {
+  display: block;
+  align: center;
+  width: 50%;
+  border-color: #15a4fa;
+}
+
+/*Main information section page - description*/
+h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+/*change action box background, text color, and position*/
+.actionbox button{
+  width: 200px;
+  height: 80px;
+  border: 1px solid white;
+  padding: 10px 10px;
+  color: #fff;
+  background-color:black;
+  border-radius: 15px;
+  font-size: 14px;
+
+}
+
+/*change arrow position*/
+.arrow {
+  color:#fff;
+  margin-top: 100px;
+}
+
+/*change arrow color and size*/
+.fa-chevron-down {
+  color: #000;
+  font-size: 2em;
+}
+
+
+/*========================================================
+               Main Section
+========================================================*/
+/*Change text position */
+#main {
+  position: relative;
+  top:50px;
+  text-align: center;
+width: 100%;
+height: auto;
+
+}
+
+/*change header size and color*/
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #2d3950;
+}
+
+/*change text position*/
+#main p {
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 50%;
+  color: #999;
+}
+
+
+/*========================================================
+               Features Section
+========================================================*/
+
+/*background of features section*/
+.features {
+  position: relative;
+  top: 0px;
+  background-color:black;
+  text-align: center;
+  height: 500px;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ; 
+
+}
+
+/*Place features in three columns*/
+.featureboxes {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  font-weight: 400;
+  margin: 5% 1%;
+  padding: 10px;
+  width: 21%;
+}
+
+/*create a box and a gradient background for the icons*/
+.iconbox {
+  /*for browsers that do not support gradients*/
+  background-color: #00E676;
+  /*Standard syntax */
+  background: linear-gradient(to right, #00E676,#7db9e8 );
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+/*center icons in the box*/
+.features i {
+  display: block;
+  padding-top: 25px;
+}
+
+/*Change color and icon size*/
+.fa-mobile, .fa-paper-plane-o, .fa-bullhorn {
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/*change font size of header */
+.features h4 {
+  font-size: 22px;
+}
+
+/*========================================================
+               Showcase Section
+========================================================*/
+
+.dragon{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 800px;
+  padding: 15px 15px 15px;
+  z-index: 1-;
+
+}
+
+
+.showcase {
+  text-align: center;
+padding: 20px ;
+height: 20px;
+}
+
+.showcase h3 {
+  font-size: 41px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.showcase p{
+  padding-top: 0;
+  line-height: 23px;
+  color: #fff;
+
+}
+
+.photos {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  padding: 25px;
+}
+
+/*pictures*/
+ .boxes {
+  display: inline-block;
+  margin: 2% 1% 0%;
+  padding: 10px;
+  width: 25%;
+}
+
+.boxes img{
+  height: 100%;
+  width: 100%;
+}
+
+/*========================================================
+               Subscribe Section
+========================================================*/
+
+.subscribe {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 700px;
+  background-color: transparent;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ; 
+}
+
+.content {
+  position: center absolute;
+  top: 0px;
+  width: 800px;
+  height: 600px;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+  opacity: 0.7;
+  border-radius: 10px ;
+}
+.text_wrap{
+  position: relative;
+  top: 40px;
+}
+
+
+.send {
+  background: transparent;
+  color: white;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  padding: 10px 25px;
+  margin: 25px 0 0 50px;
+  cursor: pointer;
+}
+
+/*========================================================
+               Footer Section
+========================================================*/
+
+.footer {
+    padding: 10px 10px 10px 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.copyright {
+  margin-left: 75;
+  font-size: 16px;,
+  color: #000;
+  float: left;
+}
+
+.social-media {
+  display: inline;
+  float: right;
+  margin: 20px 75px 0 0;
+}
+
+.social-media a {
+  background-color: #15a4fa;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 2px;
+}
+.social-media a:first-child{
+  padding: 7px 9px;
+}
+
+.footer{
+  position: bottom;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  z-index: 1;
+
+}
+
+/* Member area Main Information */
+
+.profile{
+  position: relative;
+  top: 50px;
+  left: 0px;
+  height:500px;
+  width:100%;
+  color: #fff;
+  background-color: transparent;
+padding: 25px;
+}
+.mem_profile_area{
+    position: relative;
+    top: 50px;
+  height: auto;
+  width: 100%;
+  background-color: grey;
+}
+}
+.mem_photo{
+  position: relative;
+  top:0px;
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  border-radius: 25px;
+
+}
+.mem_bio, .info1,.info1,.info2,.info3,.info4 {
+  position: relative;
+  top:0px;
+ left:50%;
+  height: 400px;
+  width: 400px;
+  background-color: green;
+  font-size: 20px;
+
+}
+.righWindow{
+position: relative;
+  height: 400px;
+  width:auto;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 47px;
+  padding: 25px;
+  background-color: pink;
+
+}
